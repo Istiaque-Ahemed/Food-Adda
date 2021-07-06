@@ -3,6 +3,29 @@ body{
     margin: 0;
     font-family: 'Mukta', sans-serif;
 }
+li{
+    display: inline-block;
+    margin:-4px;
+    width: 25%;
+}
+#a{
+    position: relative;
+    background-image: linear-gradient(#ff5f6d , #ffc371);
+    box-sizing: border-box;
+    display: block;
+    transform: skew(-45deg);
+    min-height: 3em;
+    text-align: center;
+}
+#span{
+    color:#fff;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%) skewX(45deg);
+    top:50%;
+    left: 50%;
+    width: 90%;
+}
 h2{
     font-size: 50px;
 }
@@ -13,6 +36,7 @@ section{
     display:flex;
     margin-bottom: 150px;
 }
+
 .para{
     color: slategrey;
 }
