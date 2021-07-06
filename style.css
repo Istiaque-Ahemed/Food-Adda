@@ -11,22 +11,31 @@ h3{
 }
 section{
     display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 60px;
+}
+.para{
+    color: slategrey;
 }
 .orange-color{
     color: orange;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 4%;
     padding-right: 3%;
-    padding-top: 40px;
-    
-
+    padding-top: 39px;
+    margin-bottom: 100px;
+}
+.half-width-1{
+    width: 50%;
+    color:slategray;
+    padding-left: 12%;
+    padding-right: 7%;
+    padding-top: 118px;
 }
 .half-width img {
-    width: 350px;
-    padding-right: 25%;
+    width: 402px;
+    padding-right: 2%;
     padding-top:30px;
 }
 .link-button{
@@ -42,6 +51,39 @@ section{
     background-image: url(images/shapes/Frame\ 56.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
-    
+    height: 500px;   
 }
+.my-recipies{
+    text-align: center;
+    padding-bottom: 5%;
+    color: slategray;
+;
+}
+#pic{
+    height: 430px;
+    width: 277px;   
+}
+.recipi{
+
+}
+.recipi-dis{
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+  
+
+}
+.dis{
+    width: 30%;
+    height: 500px;
+    padding: 6%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.dis img{
+    width: 100%;  
+    
+
+}
+
 
