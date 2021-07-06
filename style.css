@@ -7,11 +7,11 @@ h2{
     font-size: 50px;
 }
 h3{
-    font-size: 30px;
+    font-size: 23px;
 }
 section{
     display:flex;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 .para{
     color: slategrey;
@@ -64,26 +64,24 @@ section{
     width: 277px;   
 }
 .recipi{
-
+  height: 500px;
+  padding-bottom: 200px;
 }
 .recipi-dis{
     display: flex;
     padding-left: 4%;
     padding-right: 4%;
-  
-
+    margin-left: 8%;    
 }
 .dis{
-    width: 30%;
-    height: 500px;
-    padding: 6%;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 20px;
+    width: 31%;
+    margin-left: -3%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 41px;
 }
 .dis img{
     width: 100%;  
-    
-
 }
-
 
